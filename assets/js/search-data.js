@@ -511,6 +511,13 @@ ninja.data = [{
           window.open("https://github.com/devUuung", "_blank");
         },
       },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0001-3648-8437", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
@@ -529,7 +536,7 @@ ninja.data = [{
         title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("https://apex.gnu.ac.kr/# work page URL", "_blank");
+          window.open("https://apex.gnu.ac.kr/", "_blank");
         },
       },{
       id: 'light-theme',
