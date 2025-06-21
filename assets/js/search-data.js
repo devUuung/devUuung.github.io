@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-비전공자-친구에게-39-설명가능-ai-39-가-뭔지-5분-만에-설명해보기",
+        
+          title: '비전공자 친구에게 &#39;설명가능 AI&#39;가 뭔지 5분 만에 설명해보기 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "IntroductionAI는 사진 속 동물이 개인지 고양이인지 쉽게 판별한다. 그리고 요즘 시대에는 이러한 AI의 모습을 보여주면 사람들은 당연하다는 듯이 고개를 끄덕인다. 하지만, 이런 질문을 던져보면 어떨까?&amp;nbsp;❓ AI가 이 사진을 개라고 예측한 이유가 뭘까?&amp;nbsp;이 질문엔 그 누구도 답할 수 없다. 심지어 AI조차도 말이다. 이 질문을 답하고자 하는 학문이 설명 가능한 인공지능(eXplainable AI, 줄여서 XAI)이다.&amp;nbsp;답은 알지만 풀이 과정은 몰라 - Black Box기존의 AI 모델들은 보통 블랙박스(Black Box)에 종종 비유된다. 마치 속이 보이지 않는 검은 상자와 같기 때문이다. 데이터를 넣으면 답을 출력하지만, 대체 무슨 생각으로, 어떤 생각을 거쳐 그런 답을 내놨는지 중간 과정을 알 수가 없었다.XAI의 역할XAI는 내부 추론 과정을 알 수 없는 블랙박스를 내부가 보이는 화이트 박스로 만드는 것이다. 예를 들면, 고양이 사진을 보고 &quot;이 사진에서 뾰족한 귀와 고양이 특유의 수염, 그리고 세로로 긴 눈동자를 보고 &#39;고양이&#39;라고 판단했어&quot;라는 추론과정을 엿보는 것이다.XAI가 중요한 이유XAI가 중요한 이유는 크게 3가지를 생각해 볼 수 있다. 첫 번째는 신뢰성이 올라간다. AI의 판단 근거를 알 수 있으니, 사용자는 그 결과를 믿고 더 신뢰할 수 있다. 두 번째는 공정성이 높아진다. 혹시나 AI가 가지고 있을 편견이나 차별을 감지할 수 있다. 이로 인해, 문제가 발생하기 전에 고칠 수 있다. 세 번째는 AI 성능 향상에 도움이 된다. AI가 예측을 틀렸을 때, 왜 틀렸는지를 알 수 있기 때문에 이러한 정보를 기반으로 AI를 발전시킬&amp;nbsp;수 있다.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://devuuung.tistory.com/1", "_blank");
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -323,17 +334,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
       },{id: "post-a-post-with-redirect",
